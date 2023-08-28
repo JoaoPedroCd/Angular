@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "Joao"
+    },
+    {
+      "id": 2,
+      "nome": "Caio"
+    }
+  ],
+  "pessoa": [
+    {
+      "id": 1,
+      "nome": "Daniel",
+      "idade": 23,
+      "email": "daniel@gmail.com",
+      "apelido": "otario",
+      "senha": "12345"
+    },
+    {
+      "nome": "Joao Pedro",
+      "idade": 23,
+      "email": "Simas@gmail.com",
+      "apelido": "Chapuleta Cabeçote",
+      "senha": "2000",
+      "id": 2
+    },
+    {
+      "nome": "Fabio Te Melo",
+      "idade": 65,
+      "email": "Cajado@gmail.com",
+      "apelido": "O pai",
+      "senha": "denger zone",
+      "id": 3
+    },
+    {
+      "nome": "Drauzio Vral Nelas",
+      "idade": 75,
+      "email": "Esperto100@gmail.com",
+      "apelido": "Intelectual",
+      "senha": "12345",
+      "id": 4
+    }
+  ],
+  "produto":[
+    {
+      "id":1,
+      "nome_Prod":"Pao Frances",
+      "valor_Prod":"2,00 R$",
+      "quantidade_Prod":"5",
+      "data_C":"10/02/2000"
+
+    }
+  ]
+}
