@@ -1,0 +1,27 @@
+<div class="central">
+    <h2 id="titulo">Login</h2>
+    <div>
+       
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" [(ngModel)]="email">
+              
+            </div>
+            <div class="mb-3">
+              <label for="senha" class="form-label">senha:</label>
+              <input type="senha" class="form-control" id="senha" [(ngModel)]="senha">
+            </div>
+            <div>
+            <button (click)="login()" class="btn btn-primary">Entrar</button>
+            <button [routerLink]="'/cadastro-log'" class="btn btn-primary">Cadastrar</button>
+        </div>
+        <div>
+            <p *ngIf="mensagem">{{mensagem}}</p>
+        </div>
+        
+    </div>
+    
+    
+    </div>
+    <br>
+    <br>
