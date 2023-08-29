@@ -1,0 +1,25 @@
+<table class="table table-dark table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Preço R$</th>
+            <th scope="col">Tipo</th>
+            <th scope="col-2">Ações</th>
+        </tr>
+    </thead>
+
+    <tbody *ngFor="let produto of produtos">
+        <tr>
+            <th scope="row">{{produto.id}}</th>
+            <th scope="row">{{produto.nome}}</th>
+            <th scope="row">{{produto.preco}}</th>
+            <th scope="row">{{produto.tipo}}</th>
+            <td><button [routerLink]=" '/atualizar/'+produto?.id" class="btn btn-success">Atualizar</button>
+            <button (click)="deletar(produto.id)" class="btn btn-danger">Excluir</button></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+<button [routerLink]="'/novo'" class="btn btn-primary">Adicionar Produto</button>

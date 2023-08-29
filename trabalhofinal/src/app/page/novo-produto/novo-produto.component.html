@@ -1,0 +1,22 @@
+<div class="central">
+<form #f="ngForm"(ngSubmit)="submitForm(f)">
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome:</label>
+        <input class="form-control" type="text" id="nome" name="nome" [(ngModel)]="dados.nome">
+    </div>
+    <div class="mb-3">
+        <label for="preco" class="form-label">Preço R$:</label>
+        <input class="form-control" type="number" id="preco" name="preco" [(ngModel)]="dados.preco">
+    </div>
+    <div class="mb-3">
+        <label for="tipo" class="form-label">Tipo</label>
+        <input class="form-control" type="text" id="tipo" name="tipo" [(ngModel)]="dados.tipo">
+    </div>
+    <div>
+    <button type="submit" class="btn btn-success">Cadastrar</button>
+    <button [routerLink]="'/produto'" type="submit" class="btn btn-danger" >Voltar</button>
+</div>
+
+</form>
+</div>
+

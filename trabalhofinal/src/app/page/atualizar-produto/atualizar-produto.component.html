@@ -1,0 +1,24 @@
+<div class="central">
+    <form (ngSubmit)="atualizarDados()">
+    <div>
+        <label class="form-label" for="nome">Nome:</label>
+        <input class="form-control" type="text" id="nome" name="nome" [(ngModel)]="dados.nome">
+    </div>
+
+    <div>
+        <label  class="form-label" for="preco">Preço R$:</label>
+        <input class="form-control" type="number" id="preco" name="preco" [(ngModel)]="dados.preco">
+    </div>
+
+    <div>
+        <label  class="form-label" for="tipo">Tipo:</label>
+        <input class="form-control" type="text" id="tipo" name="tipo" [(ngModel)]="dados.tipo">
+    </div>
+    <div>
+    <button type="submit" class="btn btn-success" >Atualizar</button>
+    <button [routerLink]="'/produto'" type="submit" class="btn btn-danger" >Voltar</button>
+
+</div>
+</form>
+</div>
+

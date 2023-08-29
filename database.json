@@ -43,14 +43,24 @@
       "id": 4
     }
   ],
-  "produto":[
+  "produto": [
     {
-      "id":1,
-      "nome_Prod":"Pao Frances",
-      "valor_Prod":"2,00 R$",
-      "quantidade_Prod":"5",
-      "data_C":"10/02/2000"
-
+      "nome": "peixee",
+      "preco": 30,
+      "tipo": "lixo",
+      "id": 2
+    },
+    {
+      "nome": "Arroz",
+      "preco": 15,
+      "tipo": "intel",
+      "id": 3
+    },
+    {
+      "nome": "Cartas",
+      "preco": 21,
+      "tipo": "paladar",
+      "id": 5
     }
   ]
 }
